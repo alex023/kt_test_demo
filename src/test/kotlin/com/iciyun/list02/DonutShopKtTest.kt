@@ -1,13 +1,7 @@
 package com.iciyun.list02
 
-import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.RepeatedTest
-
-//import io.kotlintest.properties.Gen
-//import io.kotlintest.properties.forAll
-//import io.kotlintest.properties.generateInfiniteSequence
-//import io.kotlintest.specs.StringSpec
+import kotlin.test.*
 
 class DonutShopKtTest {
 

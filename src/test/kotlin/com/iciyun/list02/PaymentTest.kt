@@ -1,6 +1,7 @@
 package com.iciyun.list02
 
-import org.junit.jupiter.api.Test
+//import org.junit.jupiter.api.Test
+import kotlin.test.*
 import java.util.*
 
 //class PaymentTest : StringSpec() {
@@ -77,7 +78,10 @@ class PurchaseGenerator {
             var result: Iterable<Purchase> = listOf()
             val creditCard1 = CreditCard()
             val random = Random()
-            for (index in 1..100) result += buyDonuts(creditCard1, random.nextInt(100))
+            for (index in 1..100) result += buyDonuts(
+                creditCard1,
+                random.nextInt(100)
+            )
             return result
         }
     }
